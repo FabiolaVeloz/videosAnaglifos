@@ -53,12 +53,10 @@
       margin-bottom: 10px;
     }
     .video-card video {
-  width: 100%; 
-  height: auto; 
-  max-height: 300px; 
-  object-fit: cover; 
-  aspect-ratio: 16 / 9; 
-  border-radius: 5px;
+  width: 100%; /* Ocupar todo el ancho del contenedor */
+  height: 250px; /* Fija un alto consistente para todos los videos */
+  object-fit: cover; /* Rellena el espacio definido cortando el contenido si es necesario */
+  border-radius: 5px; /* Mantiene las esquinas redondeadas */
 }
     footer {
       text-align: center;
